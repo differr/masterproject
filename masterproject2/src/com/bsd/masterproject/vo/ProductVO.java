@@ -22,11 +22,12 @@ public class ProductVO {
 	private String boxForCapacity;
 	private int fillAmt;
 	
-	public String getProdId() {
+	
+	public String getProdCode() {
 		return prodCode;
 	}
-	public void setProdId(String prodId) {
-		this.prodCode = prodId;
+	public void setProdCode(String prodCode) {
+		this.prodCode = prodCode;
 	}
 	public String getName() {
 		return name;
